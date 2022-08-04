@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/shirou/gopsutil/v3/internal/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/sunny316/gopsutil/v3/internal/common"
 )
 
 func skipIfNotImplementedErr(t *testing.T, err error) {

@@ -17,8 +17,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/shirou/gopsutil/v3/internal/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/sunny316/gopsutil/v3/internal/common"
 )
 
 var mu sync.Mutex
